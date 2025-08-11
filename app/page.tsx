@@ -1,17 +1,21 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import { Carousel } from '@/components/ui/carousel'
 import Content1 from './components/Content1'
 import Content2 from './components/Content2'
+import { CarouselPlugin } from './components/Carourel'
+import Gallary from './components/Gallary'
+import TopNavbar from  './components/TopNavbar'
 
 function page() {
   return (
     <div>
+      <TopNavbar/>
       <Navbar/>
-      <Carousel/>
+      <CarouselPlugin/>
       <Content1/>
       <Content2/>
+      <Gallary/>
       <Footer/>
     </div>
   )

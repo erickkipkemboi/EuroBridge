@@ -25,8 +25,10 @@ const Footer = () => {
             </Link>
             <div className="flex space-x-3">
               {[
-                { href: "https://instagram.com", icon: "/icons/instagram.png", label: "Instagram" },
-               { href: "https://facebook.com", icon: "/icons/facebook.png", label: "Facebook" },
+                { href: "https://facebook.com", icon: "/icons/facebook.svg", label: "Facebook" },
+               { href: "https://tiktok.com", icon: "/icons/tiktok.svg", label: "Tiktok" },
+               { href: "https://instagram.com", icon: "/icons/instagram.svg", label: "Instagram" },
+               { href: "https://X.com", icon: "/icons/X.svg", label: "X" },
               ].map(({ href, icon, label }) => (
                 <Link key={label} href={href} aria-label={label} target="_blank" rel="noopener noreferrer">
                   <Image
@@ -79,7 +81,7 @@ const Footer = () => {
 
         {/* Footer Bottom */}
         <div className="mt-10 text-center text-gray-400 text-sm">
-          © 2025 Finderics. All rights reserved.
+          © 2025 Eurosbridge. All rights reserved.
         </div>
       </div>
     </footer>

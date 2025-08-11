@@ -7,7 +7,7 @@ const Contentone = () => {
   
       <div className="flex-1">
         <Image
-        src="/images/pic2.jpg"
+        src="/images/5.jpg"
         alt="Team Discussion"
         className="rounded-lg shadow-md w-full object-cover"
         width={800}
@@ -22,7 +22,7 @@ const Contentone = () => {
           </CardHeader>
           <CardContent>
             <p className="text-base text-gray-700 mb-4">
-              At FIC, we are dedicated to helping you achieve fluency in German
+              At EUROBRIDGE LANGUAGE INTITUTE, we are dedicated to helping you achieve fluency in German
               and French, as well as success in the IELTS exam.
             </p>
             <p className="text-base text-gray-700 ">

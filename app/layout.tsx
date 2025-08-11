@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Montserrat } from "next/font/google";
+import WhatsappContact from "./components/Whatsapp";
 
 
 
@@ -12,7 +13,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "EuroBridge",
+  title: "EUROBRIDGE",
   icons: {
     icon: '/icons/logo.png',
  
@@ -22,16 +23,17 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
+
+
   return (
     <html lang="en">
       <body className={`${montserrat.className} antialiased`} suppressHydrationWarning>
-      
+        
                  <div className="flex flex-col min-h-screen">
                     <main className="flex-grow">{children}</main>
-            
+                  <WhatsappContact />
                
           </div>
-        
       </body>
     </html>
   );

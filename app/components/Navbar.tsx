@@ -55,6 +55,7 @@ function NavigationMenu() {
     { href: "/", label: "Home" },
     { href: "/aboutus", label: "About" },
     { href: "/courses", label: "Courses" },
+    { href: "/admission", label: "Admission" },
     { href: "/contactus", label: "Contact Us" },
   ];
 
@@ -64,7 +65,8 @@ function NavigationMenu() {
   }, [closeMenu, router]);
 
   return (
-    <Card className="rounded-none border-none sticky top-0 z-50 bg-blue-400 shadow-md">
+    <Card className="rounded-none
+ border-none sticky top-0 z-50 bg-blue-400 shadow-md">
       <div className="h-10 w-full px-4 lg:px-8 flex items-center">
         {/* LEFT: Logo and Company Name */}
         <div className="flex items-center space-x-3">
@@ -80,20 +82,19 @@ function NavigationMenu() {
               />
             </div>
           </Link>
-          <span className="text-yellow-400 font-bold text-lg sm:text-xl lg:text-2xl leading-tight">
+          <span className="text-yellow-400 font-bold text-lg sm:text-xl lg:text-xl leading-tight">
             EuroBridge Language Institute
           </span>
         </div>
 
-        {/* CENTER/RIGHT: Desktop Navigation */}
-        <nav className="hidden lg:flex items-center space-x-2 ml-auto" aria-label="Main navigation">
+         <nav className="hidden lg:flex items-center space-x-2 ml-auto" aria-label="Main navigation">
           {navigationLinks.map((link) => (
             <Link key={link.href} href={link.href}>
               <Button
                 variant={pathname === link.href ? "default" : "ghost"}
                 className={`text-white font-medium px-4 py-2 transition-colors duration-200 ${
                   pathname === link.href
-                    ? "bg-yellow-600 hover:bg-yellow-700"
+                    ? "bg-yellow-400 hover:bg-yellow-700"
                     : "hover:bg-yellow-500/20"
                 }`}
                 aria-label={`Navigate to ${link.label}`}
