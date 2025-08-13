@@ -1,0 +1,4 @@
+{
+  "/(root)/contactus/page": "app/(root)/contactus/page.js",
+  "/page": "app/page.js"
+}

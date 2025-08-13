@@ -80,7 +80,7 @@ const Footer = () => {
         </div>
 
         {/* Footer Bottom */}
-        <div className="mt-10 text-center text-gray-400 text-sm">
+        <div className="mt-10 text-center text-black-400 text-sm">
           © 2025 Eurosbridge. All rights reserved.
         </div>
       </div>
