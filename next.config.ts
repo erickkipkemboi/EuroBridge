@@ -1,7 +1,10 @@
-const nextConfig = {
+// next.config.ts
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
   experimental: {
-    clientReferences: true,
-  },
+    // ❌ remove clientReferences
+  }
 };
 
 export default nextConfig;
