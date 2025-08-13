@@ -13,7 +13,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "EUROBRIDGE",
+  title: "EUROBRIDGE LANGUAGE INSTITUTE",
   icons: {
     icon: '/icons/logo.png',
  

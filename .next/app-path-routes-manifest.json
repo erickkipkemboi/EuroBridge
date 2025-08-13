@@ -5,7 +5,7 @@
   "/(root)/aboutus/page": "/aboutus",
   "/(root)/admission/page": "/admission",
   "/(root)/application/page": "/application",
+  "/(root)/contactus/page": "/contactus",
   "/(root)/courses/page": "/courses",
-  "/(root)/page": "/",
-  "/(root)/contactus/page": "/contactus"
+  "/(root)/page": "/"
 }
