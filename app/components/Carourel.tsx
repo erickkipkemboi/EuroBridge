@@ -66,7 +66,7 @@ export function CarouselPlugin() {
                 fill
                 priority={index === 0}
                 className="object-cover"
-              />
+                />
 
               {/* Navy + Gold Overlay */}
               <div className="absolute inset-0 bg-gradient-to-br from-[#0B3C5D]/90 via-black/80 to-black/90 flex flex-col items-center justify-center text-white px-6 text-center space-y-6">
@@ -95,7 +95,7 @@ export function CarouselPlugin() {
                 </p>
 
                 {/* CTA Button */}
-                <Link href="/apply">
+                <Link href="/register">
                   <Button
                     className="mt-4 bg-[#C9A227] hover:bg-[#B38B1D] text-[#0B3C5D] font-semibold text-lg px-8 py-4 rounded-xl shadow-lg transition-all duration-300 hover:shadow-2xl"
                   >

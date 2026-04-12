@@ -17,7 +17,7 @@ function NavigationMenu() {
     { href: "/", label: "Home" },
     { href: "/aboutus", label: "About" },
     { href: "/courses", label: "Courses" },
-    { href: "/admission", label: "Admission" },
+    { href: "/register", label: "Register" },
     { href: "/contactus", label: "Contact Us" },
   ];
 
@@ -88,12 +88,12 @@ function NavigationMenu() {
             );
           })}
 
-          <Button
+          {/* <Button
             onClick={handleSignIn}
             className="bg-[#C9A227] hover:bg-[#B38B1D] text-[#0B3C5D] font-semibold px-6 py-2 rounded-xl shadow-md transition-all duration-200 hover:shadow-lg"
           >
             Sign In
-          </Button>
+          </Button> */}
         </nav>
 
         {/* Mobile Toggle */}
@@ -160,12 +160,12 @@ function NavigationMenu() {
             );
           })}
 
-          <Button
+          {/* <Button
             onClick={handleSignIn}
             className="mt-6 bg-[#C9A227] hover:bg-[#B38B1D] text-[#0B3C5D] font-semibold py-3 rounded-xl shadow-md"
           >
             Sign In
-          </Button>
+          </Button> */}
         </nav>
       </div>
     </Card>
